@@ -1,20 +1,64 @@
-## Inroduction 
-
-One of the very useful practical and important separation technique in the chemical industry is membrane separation. A membrane is a thin barrier, placed between two phases or mediums, which allows one or more constituents to selectively pass from one medium to the other in the presence of an appropriate driving force while retaining the rest. This is why it is called a semipermeable membrane. The two phases between which transfer of the species occurs are not in direct contact.
-If separation occurs by a sieving mechanism then it can be of three types-Ultrafiltration, Microfiltration, or Nanofiltration depending on the range of membrane pore size. In the case of separating salt from brackish water the transport of the solvent occurs under the effect of a pressure difference. This is called Reverse Osmosis.
+## Theory
+### MICROFILTRATION
+It is the separation of fine particles and colloids from a liquid or of particulates from a gas using a porous membrane having pore sizes in the range 100-104 nm. Separation occurs by sieving mechanism at a low pressure difference(within 2 bar). A crossflow arrangement is preferred as it involves less accumulation of solid particles on the membrane. The feed usually is liquid/gas containing suspended particulates and the permeated species mostly is the suspending medium and liquid or gas.
            
 
-## 1. Modes of Heat Transfer
-Transfer of heat can take place through three different mechanisms
-### 1.1 Conduction
+## Uses
+Separation of cells, sterilization of liquid/ gas streams, separation of emulsified oil from water, clarification of liquids/beverages in food industries.
+### ULTRAFILTRATION
 
-Conduction can be understood as a process in which energy transfer occurs from a more energetic body to a less energetic process primarily due to collisions between them. Conduction takes only when there is a temperature difference between two parts of the conducting medium. Let's explore the dependence of the conduction rate with change in temperature. Consider a thin plate of thickness `Delta x` and cross sectional area A. Let the temperature of thickness at one face be and at the opposite face be . It has been experimentally found that heat flow will take place between the two faces. If the time interval is `Delta T` and the heat flow `Delta Q`, then it has been found that `(Delta Q)/(Delta T)=k(Delta T)/(Delta x)`
- ### 1.2 Convection               
-Unlike conduction, convection involves bulk transport of fluids from one place to another which consequently results in exchange of heat from the hotter to colder substance. In brief, the heat energy transferred due to movement of a heated substance is convection. Land and sea breezes are a good example of the phenomenon of convection. During the night, the land cools faster due to poor conductivity of land. This leads to differential heating of the air above land and water. The air above seas is hotter. Since hot air is lighter, it rises up resulting in cool breezes from the land blowing in above seas and the hot air being transported to land resulting in warm night breezes. The reverse process is repeated during the day. This entire phenomenon is based on convection currents and is an example of natural convection. Natural convection is essentially due to the difference in the densities of the fluids which results in their subsequent motion. When fluids are made to move due to some external forces such as a fan or a blower as the case maybe, then it's called forced convection.
- 
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
-				
-<p>Figure 1.1 Convection Currents</p>
-                           
- ### 1.3 Radiation    
- Radiation heat exchange between two bodies at different temperatures always results in a net transfer of heat energy from the body at a higher temperature to the other at a lower temperature.Heat transfer by radiation is important role in many heating and cooling operation and equipment such as operation of a furnace ,thermal cracking, various types of kilns etc.Radiation heat loss from a process equipment becomes significant when its temperature is considerably different from that of the ambient. Therefore process of radiation is necessary for thermal calculation in a varity of physical situation. Thermal radiation is the emission of electromagnetic waves from all matter that has a temperature greater than absolute zero.Thermal radiation incident on a body tends to increase its temperature .Its depending upon the nature of the material constituting the body and its surface characteristics ,the incident radiation may be absorbed,reflected, or transmitted, partly or fully.
+It is the process of separation or concentration by a sieving mechanism of a large molecular weight solute or a colloidal suspension by using a membrane having pore sizes in range of 1-100 nm(in between MF and RO). Some molecules get adsorbed on membrane surface, reducing the pore size significantly. The selectivity criterion of a UF membrane is commonly called molecular weight cut off. It requires a pressure difference of 1-10 bar. The feed may be liquid and the permeated species may be low Molecular weight solute and solvent.
+ ### Uses               
+Separation of biomolecules, proteins,emulsions, dispersed droplets, macromolecules, auto paints from solutions.
+  ### Concentration polarization
+  The reverse accumulation of the rejected solute in the fluid phase at the membrane-fluid interface as the solvent passes through the membrane. When solvent passes through the pores of a membrane, the solute particles are left behind at the feed-side interface of the membrane. As time progresses this solute concentration builds up on the membrane surface and this phenomenon offers a resistance to flow.
+  
+The most significant resistances are-
+1. Concentration polarization
+2. Gel formation
+3. Adsorption
+4. Pore blockage
+A decline in flux of solvent may occur due to the above resistances. Now let us analyse the situation with some mathematical equations-
+
+
+Suppose `J_w` = solvent flux<br>
+`C_p`=solute concentration<br>
+C=local concentration of solute in the film or boundary layer<br>
+D=diffusivity of the solute<br>
+`C_b`=solute concentration in the bulk solution<br>
+`C_m`=solute concentration in the liquid in the membrane surface<br>
+L=film or boundary layer thickness from where the concentration varies from `C_m` to `C_b`<br>
+Solute flux through the membrane = Convective flux towards the membrane surface – Flux of back diffusion of the solute to the bulk of the liquid<br>`=>J_wC_p=J_wC-(-D(dC)/dz)`</p>                 
+<p style="padding-bottom: 10px;">  For simple case take boundary conditions as<br>
+At z=0 C=Cm<br>
+At z=L C=Cb<br>
+Liquid side mass transfer coefficient at membrane surface is kL=D/L The rejection coefficient is defined as<br>
+R'=1-(Cp/Cm) On simplification,  <br>
+$$\frac{C_m}{C_b}=\frac{exp (\frac{J_w}{kL})}{R'+(1-R')exp(\frac{J_w}{kL})}$$                 
+
+Cm/Cb is called the polarisation modulus.
+This increases with flux, with increasing retention R' and decreasing kL.
+For complete retention
+R'=1 and Cm/Cb=exp(Jw/kL) 
+	
+### Gel polarization model               
+$$Due\ to\ concentration\ polarisation,\ the\ solute\ concentration\ at\ the\ membrane\ surface\ may\ be\ very\ large.\ Solutes\ like\ a\ polymer\ or\ protein\ may\ form\ a\ slimy\ layer\ called\ gel\ if\ a\ limiting\ concentration\ C_g \ is \ reached.\ At \ steady\ state,\ a \ constant\ thickness\ of\ the\ gel\ and\ a\ limiting \ flux \ J_0 \ are\ attained.\ The\ macromolecules\ are\ transported\ to\ the\ membrane\ convectively\ as\ before\ and\ back\ diffused\ under\ the\ gradient\ (C_g-C_b). \ Total\ resistance\ is\ expressed\ as\ the\ sum\ of\ membrane\ and\ gel\ resistances.$$
+	
+$$J_0= \frac{∆P}{µ**(R_m+R_g)}$$
+	
+Also
+	
+$$J_o=k_Lln(\frac{C_g-C_p}{C_b-C_p})$$
+	
+$$If\ the\ solute\ rejection\ is\ high\ (C_pb)$$
+	
+$$J_0=k_L(ln C_g-ln C_b)$$ 
+
+
+### REVERSE OSMOSIS
+	
+When an aqueous solution of a substance is kept separated from water by a semi-permeable membrane in a two compartment cell, water diffuses through the membrane into the higher concentration compartment. This is osmosis and occurs because of difference of chemical potential of water between the two compartments. If the solution level is elevated, the flow of water through the membrane to the higher concentration side drops. This extra pressure due to the elevated level of the solution is called osmotic pressure(∏). An application of an extra pressure higher than osmotic pressure, chemical potential of water in solutions side becomes more than that of pure water. Under such a condition, flow of water occurs from solution side to the pure water side which is called reverse osmosis. The membrane pore size range is from 0.1 nm-1 nm. The separation mechanism is solution-diffusion. The feed might be salt solutions, sea water and the pressure difference applied is around 10-100 bar. The rejected species are mainly low molecular weight solutes and permeated species is mainly water. The feed water to the RO unit must be preheated to remove suspended and dissolved membrane fouling agents.
+
+### Uses
+Desalination of sea water, brackish water, treatment of wastewater.	
+
