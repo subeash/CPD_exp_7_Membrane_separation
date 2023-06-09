@@ -1,8 +1,7 @@
 ## Inroduction 
 
-**Heat**
-
-Heat can be defined as the transfer of energy across the boundary of a system due to a temperature difference between the system and its surroundings. Heat should not be confused with internal energy which is essentially all the energy of a system that is associated with its atoms and molecules - when viewed from a reference frame at rest with respect to the object. It's important to understand the fact that internal energy can undergo a change even when there is no transfer of heat. Consider an adiabatic vessel with a movable lid-pulling the lid, in such a manner that the volume of vessel expands, results in cooling and consequent decrease of internal energy even though there was no transfer of heat from surroundings.
+One of the very useful practical and important separation technique in the chemical industry is membrane separation. A membrane is a thin barrier, placed between two phases or mediums, which allows one or more constituents to selectively pass from one medium to the other in the presence of an appropriate driving force while retaining the rest. This is why it is called a semipermeable membrane. The two phases between which transfer of the species occurs are not in direct contact.
+If separation occurs by a sieving mechanism then it can be of three types-Ultrafiltration, Microfiltration, or Nanofiltration depending on the range of membrane pore size. In the case of separating salt from brackish water the transport of the solvent occurs under the effect of a pressure difference. This is called Reverse Osmosis.
            
 
 ## 1. Modes of Heat Transfer
