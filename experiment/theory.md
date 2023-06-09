@@ -17,7 +17,7 @@ The most significant resistances are-
 1. Concentration polarization
 2. Gel formation
 3. Adsorption
-4. Pore blockage
+4. Pore blockage <br>
 A decline in flux of solvent may occur due to the above resistances. Now let us analyse the situation with some mathematical equations-
 
 
@@ -45,12 +45,20 @@ R'=1-(Cp/Cm) On simplification,  <br>
 $$\frac{C_m}{C_b}=\frac{exp (\frac{J_w}{kL})}{R'+(1-R')exp(\frac{J_w}{kL})}$$                 
 
 Cm/Cb is called the polarisation modulus.
-This increases with flux, with increasing retention R' and decreasing kL.
-For complete retention
+This increases with flux, with increasing retention R' and decreasing kL. <br>
+For complete retention <br>
 R'=1 and Cm/Cb=exp(Jw/kL) 
 	
-### Gel polarization model               
-$$Due\ to\ concentration\ polarisation,\ the\ solute\ concentration\ at\ the\ membrane\ surface\ may\ be\ very\ large.\ Solutes\ like\ a\ polymer\ or\ protein\ may\ form\ a\ slimy\ layer\ called\ gel\ if\ a\ limiting\ concentration\ C_g \ is \ reached.\ At \ steady\ state,\ a \ constant\ thickness\ of\ the\ gel\ and\ a\ limiting \ flux \ J_0 \ are\ attained.\ The\ macromolecules\ are\ transported\ to\ the\ membrane\ convectively\ as\ before\ and\ back\ diffused\ under\ the\ gradient\ (C_g-C_b). \ Total\ resistance\ is\ expressed\ as\ the\ sum\ of\ membrane\ and\ gel\ resistances.$$
+### Gel polarization model   
+
+  
+$$Due\ to\ concentration\ polarisation,\ the\ solute\ concentration\ at\ the\ membrane\ surface\ may\ be\ very\ large.\ Solutes\ like\ a\ $$ <br>
+
+$$polymer\ or\ protein\ may\ form\ a\ slimy\ layer\ called\ gel\ if\ a\ limiting\ concentration\ C_g \ is \ reached.\ At \ steady\ state,\ $$ <br>
+
+$$a \ constant\ thickness\ of\ the\ gel\ and\ a\ limiting \ flux \ J_0 \ are\ attained.\ The\ macromolecules\ are\ transported\ to\ the\ membrane\ $$ <br>
+
+$$convectively\ as\ before\ and\ back\ diffused\ under\ the\ gradient\ (C_g-C_b). \ Total\ resistance\ is\ expressed\ as\ the\ sum\ of\ membrane\ and\ gel\ resistances.$$
 	
 $$J_0= \frac{∆P}{µ**(R_m+R_g)}$$
 	
