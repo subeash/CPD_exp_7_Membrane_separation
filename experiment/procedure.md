@@ -4,25 +4,25 @@ Please follow these steps to do the real experiment.
 
 #### Equipment and Materials:
 
--Membrane module (e.g., hollow fiber, flat sheet, spiral wound)
+- Membrane module (e.g., hollow fiber, flat sheet, spiral wound)
 
--Feed solution (the solution to be separated)
+- Feed solution (the solution to be separated)
 
--Permeate collection container
+- Permeate collection container
 
--Pump or pressure source
+- Pump or pressure source
 
--Pressure gauges
+- Pressure gauges
 
--Flow meters
+- Flow meters
 
--Temperature measuring device (e.g., thermometer)
+- Temperature measuring device (e.g., thermometer)
 
--Stopwatch or timer
+- Stopwatch or timer
 
--pH meter (if applicable)
+- pH meter (if applicable)
 
--Safety goggles and gloves
+
 
 #### Setup:
 
